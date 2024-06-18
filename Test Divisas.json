@@ -1,20 +1,20 @@
  [
  {
-  "Determinante": 1,
+  "ID": 1,
   "Compra USD": 17.5,
   "Venta USD": 18.5,
   "Compra EUR": 20.22,
   "Venta EUR": 21.33
  },
  {
-  "Determinante": 2,
+  "ID": 2,
   "Compra USD": 17.6,
   "Venta USD": 19.2,
   "Compra EUR": 21.15,
   "Venta EUR": 22.32
  },
  {
-  "Determinante": 3,
+  "ID": 3,
   "Compra USD": 18.2,
   "Venta USD": 19.5,
   "Compra EUR": 22.35,
