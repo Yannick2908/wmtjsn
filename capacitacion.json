@@ -1,6 +1,5 @@
+[
 {
-"Export":[
- {
   "Directorio": "1000",
   "Completado": 193,
   "Avance": 1,
@@ -20775,10 +20774,4 @@
   "Avance": 0.5763888888888888,
   "PlayerID": 331
  }
-],
-"Export Details":[
- {
-  "Data connected to Power BI: Click refresh to update.": "No se han aplicado filtros"
- }
 ]
-}
