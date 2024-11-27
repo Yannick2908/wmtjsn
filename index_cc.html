@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard Conteo Cíclico</title>
+    <script>
+        function redirectIfNoResponse() {
+            
+            const maxWaitTime = 5000;
+            const link = document.getElementById("dynamicLink");
+
+            
+            const xhr = new XMLHttpRequest();
+            xhr.open("GET", link.href, true);
+            xhr.timeout = maxWaitTime;
+
+            
+            xhr.onload = function() {
+            
+                console.log("Enlace respondido correctamente.");
+            };
+
+            
+            xhr.ontimeout = function() {
+                console.log("El enlace no respondió en el tiempo límite. Redirigiendo...");
+                window.location.href = "https://alpura-my.sharepoint.com/:x:/r/personal/erick_quijano_alpura_com/_layouts/15/Doc.aspx?sourcedoc=%7BD2CF90A6-964B-4D51-94AF-930EAF79EF3A%7D&file=Dashboard_Noviembre.xlsx&action=default&mobileredirect=true";  // Aquí pones la URL a la que deseas redirigir
+            };
+            
+            xhr.onerror = function() {
+                console.log("Hubo un error al intentar acceder al enlace. Redirigiendo...");
+                window.location.href = "https://alpura-my.sharepoint.com/:x:/r/personal/erick_quijano_alpura_com/_layouts/15/Doc.aspx?sourcedoc=%7BD2CF90A6-964B-4D51-94AF-930EAF79EF3A%7D&file=Dashboard_Noviembre.xlsx&action=default&mobileredirect=true";  // La URL de redirección
+            };
+            
+            xhr.send();
+        }
+        
+        window.onload = redirectIfNoResponse;
+    </script>
+</head>
+<body>
+    <h1>Redirección Automática</h1>
+    <a id="dynamicLink" href="https://alpura-my.sharepoint.com/:x:/r/personal/erick_quijano_alpura_com/_layouts/15/Doc.aspx?sourcedoc=%7BD2CF90A6-964B-4D51-94AF-930EAF79EF3A%7D&file=Dashboard_Noviembre.xlsx&action=default&mobileredirect=true" target="_blank">Ir a ejemplo</a>
+</body>
+</html>
