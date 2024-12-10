@@ -92851,24 +92851,4 @@
             "Días": 36
         }
     ],
-    "NaN": [
-        {
-            "Unidad": NaN,
-            "Det": 0,
-            "Clase": NaN,
-            "Retiro": NaN,
-            "Fecha": NaN,
-            "Días": 0
-        }
-    ],
-    "Filtros aplicados: \nEstatus es Pendiente\nFormato no es (En blanco)\nEstatus es Activo\nAño es 2024\nEstatus es Activo\nAño es mayor o igual que 2022": [
-        {
-            "Unidad": "Filtros aplicados: \nEstatus es Pendiente\nFormato no es (En blanco)\nEstatus es Activo\nAño es 2024\nEstatus es Activo\nAño es mayor o igual que 2022",
-            "Det": 0,
-            "Clase": NaN,
-            "Retiro": NaN,
-            "Fecha": NaN,
-            "Días": 0
-        }
-    ]
 }
